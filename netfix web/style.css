@@ -24,5 +24,19 @@ header img{
 #caixa_login{
     background: rgba(0, 0, 0, 0.7);
     padding: 30px;
-    margin-top: 150px;
+   /* margin-top: 150px;*/
 }
+
+.face img{
+    width: 25px;
+    padding-top: 10px;
+}
+
+.face a{
+    padding-top:30px, 30px;
+}
+
+strong{
+    color: white;
+}
+
