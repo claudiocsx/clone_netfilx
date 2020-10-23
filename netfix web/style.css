@@ -1,0 +1,28 @@
+body{
+    background: #000;
+}
+
+body.bg_filmes{
+    background-image: url(assets/backgraud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    padding: 50px;
+    background:linear-gradient(
+    225.5% 225.5% at 50% -115.77%,
+    #101010 60.43%,
+    rgba(16, 16, 16, 0) 93.75%
+    );
+}
+
+header img{
+    width: 150px;
+}
+
+#caixa_login{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin-top: 150px;
+}
