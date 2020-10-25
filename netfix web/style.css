@@ -1,13 +1,9 @@
+/*
+    gerais
+*/
 body{
     background: #000;
 }
-
-body.bg_filmes{
-    background-image: url(assets/backgraud.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 header{
     padding: 50px;
     background:linear-gradient(
@@ -15,11 +11,44 @@ header{
     #101010 60.43%,
     rgba(16, 16, 16, 0) 93.75%
     );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 
 header img{
     width: 150px;
 }
+
+.btn-custom-white{
+    background-color: #fff;
+}
+.btn-custom-translucent{
+    background-color: rgba(255,2555,2555, 0.2);
+    color: #fff;
+}
+.btn-custom-translucen:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-custom-white:hover{
+    opacity: 0.8;
+}
+
+
+
+
+/*
+    pagina de login
+*/
+body.bg_filmes{
+    background-image: url(assets/backgraud.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 #caixa_login{
     background: rgba(0, 0, 0, 0.7);
@@ -40,3 +69,52 @@ strong{
     color: white;
 }
 
+/*
+    home
+*/
+
+.menu_list{
+    list-style: none;
+    padding-left: o;
+    padding-top: 7px;
+}
+
+.menu_list li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu_list a{
+    color: #fff;
+}
+
+#hero{
+    height: 700px;
+    background-image: url(assets/capa\ filme.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+#hero_infos{
+    padding: 0;
+    margin-top: 170px;
+    z-index: 3;
+    position: relative;
+}
+
+#hero_infos img.logo{
+    margin-bottom: 50px;
+    width: 800px;
+}
+#hero_infos h1{
+    margin-bottom: 20px;
+}
+#hero_infos img{
+    width: 35px;
+    margin-top: -10px;
+    margin-right: 15px;
+}
